@@ -220,29 +220,32 @@
                     "peersFrom": {
                         "type": "array",
                         "items": {
-                            "$ref": "#/components/schemas/PeersFrp,
+                            "$ref": "#/components/schemas/PeersFrom"
                         }
                     },
                     "peersGettingFromUs": {
-                        "type": ""
+                        "type": "number"
                     },
                     "peersSendingToUs": {
-                        "type": ""
+                        "type": "number"
                     },
                     "percentDone": {
-                        "type": ""
+                        "type": "number"
                     },
                     "pieces": {
-                        "type": ""
+                        "type": "string"
                     },
                     "pieceCount": {
-                        "type": ""
+                        "type": "number"
                     },
                     "pieceSize": {
-                        "type": ""
+                        "type": "number"
                     },
                     "priorities": {
-                        "type": ""
+                        "type": "array",
+                        "items": {
+                            "type": "number"
+                        }
                     },
                     "primary-mime-type": {
                         "type": ""
