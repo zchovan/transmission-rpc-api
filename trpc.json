@@ -23,7 +23,7 @@
         "parameters": [
           {
             "method": "torrent-get",
-            ""fields": [ "id", "name", "totalSize" ],
+            "fields": [ "id", "name", "totalSize" ]
           }
         ],
         "responses": {
