@@ -344,6 +344,14 @@
                     }
                 }
             },
+            "Label": {
+                "type":"object",
+                "properties": {
+                    "label": {
+                        "type": "string"
+                    }
+                }
+            },
             "Peer": {
                 "type": "object",
                 "properties": {
