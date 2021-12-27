@@ -25,7 +25,9 @@
                         "name": "method",
                         "in": "header",
                         "required": true,
-                        "type": "string"
+                        "schema": {
+                            "type": "string"
+                        }
                     },
                     {
                         "name": "arguments",
