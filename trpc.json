@@ -150,7 +150,8 @@
                         "$ref":"#/components/schemas/File"
                     },
                     "fileStats": {
-                        "type": ""
+                        "type": "array",
+                        "$ref": "#/components/schemas/FileStats"
                     },
                     "hashString": {
                         "type": ""
@@ -310,11 +311,21 @@
             "File": {
                 "type": "object",
                 "properties": {
-                    "bytesCompleted": "number",
-                    "length": "numbe",
-                    "name": "string"
+                    "bytesCompleted": {
+                        "type": "number"
+                    },
+                    "length": {
+                        "type": "number"
+                    },
+                    "name": {
+                        "type": "string"
+                    }
                 }
 
+            },
+            "FileStats": {
+                "type": "object",
+                "properties": {}
             },
             "Error": {
                 "type": "object",
