@@ -314,13 +314,16 @@
                         "type": "number"
                     },
                     "uploadLimited": {
-                        "type": ""
+                        "type": "boolean"
                     },
                     "uploadRatio": {
-                        "type": ""
+                        "type": "number"
                     },
                     "wanted": {
-                        "type": ""
+                        "type": "array",
+                        "items": {
+                            "type": "boolean"
+                        }
                     },
                     "webseeds": {
                         "type": ""
