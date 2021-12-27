@@ -248,46 +248,47 @@
                         }
                     },
                     "primary-mime-type": {
-                        "type": ""
+                        "type": "string"
                     },
                     "queuePosition": {
-                        "type": ""
+                        "type": "number"
                     },
                     "rateDownload(B/s)": {
-                        "type": ""
+                        "type": "number"
                     },
                     "rateUpload(B/s)": {
-                        "type": ""
+                        "type": "number"
                     },
                     "recheckProgress": {
-                        "type": ""
+                        "type": "number"
                     },
                     "secondsDownloading": {
-                        "type": ""
+                        "type": "number"
                     },
                     "secondsSeeding": {
-                        "type": ""
+                        "type": "number"
                     },
                     "seedIdleLimit": {
-                        "type": ""
+                        "type": "number"
                     },
                     "seedIdleMode": {
-                        "type": ""
+                        "type": "number"
                     },
                     "seedRatioLimit": {
-                        "type": ""
+                        "type": "number"
                     },
                     "seedRatioMode": {
-                        "type": ""
+                        "type": "number"
                     },
                     "sizeWhenDone": {
-                        "type": ""
+                        "type": "number"
                     },
                     "startDate": {
-                        "type": ""
+                        "type": "number"
                     },
                     "status": {
-                        "type": ""
+                        "type": "string",
+                        "enum": ["Stopped", "Queued to check files", "Checking files", "Queued to donwload", "Downloading", "Queued to seed", "Seeding"]
                     },
                     "trackers": {
                         "type": ""
