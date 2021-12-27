@@ -394,6 +394,32 @@
                     }
                 }   
             },
+            "PeersFrom": {
+                "type": "object",
+                "properties": {
+                    "fromCache": {
+                        "type": "number"   
+                    },
+                    "fromDht": {
+                        "type": "number"   
+                    },
+                    "fromIncoming": {
+                        "type": "number"   
+                    },
+                    "fromLpd": {
+                        "type": "number"   
+                    },
+                    "fromLtep": {
+                        "type": "number"   
+                    },
+                    "fromPex": {
+                        "type": "number"   
+                    },
+                    "fromTracker": {
+                        "type": "number"   
+                    }
+                }   
+            }
             "Error": {
                 "type": "object",
                 "required": [
