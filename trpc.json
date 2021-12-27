@@ -33,13 +33,17 @@
                         "name": "arguments",
                         "in": "body",
                         "required": false,
-                        "type":"object"
+                        "schema": {
+                            "type": "object"
+                        }
                     },
                     {
                         "name": "tag",
                         "in": "body",
                         "required": false,
-                        "type": "integer"
+                        "schema": {
+                            "type": "integer"
+                        }
                     }
                 ],
                 "responses": {
