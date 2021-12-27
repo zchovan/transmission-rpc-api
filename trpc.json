@@ -301,6 +301,7 @@
                         "items": {
                             "$ref": "#/components/schemas/TrackerStats"
                         }
+                    },
                     "totalSize": {
                         "type": "number"
                     },
@@ -329,7 +330,7 @@
                         "type": ""
                     },
                     "webseedsSendingToUs": {
-                        "type": ""
+                        "type": "number"
                     }
                 }
             },
