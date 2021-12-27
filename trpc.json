@@ -14,7 +14,7 @@
   ],
   "paths": {
     "/transmission/rpc": {
-      "get": {
+      "post": {
         "summary": "The one and only path",
         "operationId": "torrent-get",
         "tags": [
