@@ -215,10 +215,13 @@
                         }
                     },
                     "peersConnected": {
-                        "type": ""
+                        "type": "number"
                     },
                     "peersFrom": {
-                        "type": ""
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/PeersFrp,
+                        }
                     },
                     "peersGettingFromUs": {
                         "type": ""
