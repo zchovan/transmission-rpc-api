@@ -147,7 +147,9 @@
                     },
                     "files": {
                         "type": "array",
-                        "$ref":"#/components/schemas/File"
+                        "items": {
+                            "$ref":"#/components/schemas/File"
+                        }
                     },
                     "fileStats": {
                         "type": "array",
