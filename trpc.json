@@ -154,7 +154,7 @@
                     "fileStats": {
                         "type": "array",
                         "items": {
-                            "$ref": "#/components/schemas/FileStats"
+                            "$ref": "#/components/schemas/FileStat"
                         }
                     },
                     "hashString": {
@@ -327,7 +327,7 @@
                 }
 
             },
-            "FileStats": {
+            "FileStat": {
                 "type": "object",
                 "properties": {
                     "bytesCompleted": {
@@ -340,6 +340,9 @@
                         "type": "number"
                     }
                 }
+            },
+            "Peer": {
+
             },
             "Error": {
                 "type": "object",
