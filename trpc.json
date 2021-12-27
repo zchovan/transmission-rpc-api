@@ -184,32 +184,35 @@
                     "labels": {
                         "type": "array",
                         "items": {
-                            "$ref": "Label" 
+                            "$ref": "#/components/schemas/Label" 
                         }
                     },
                     "leftUntilDone": {
-                        "type": ""
+                        "type": "number"
                     },
                     "magnetLink": {
-                        "type": ""
+                        "type": "string"
                     },
                     "manualAnnounceTime": {
-                        "type": ""
+                        "type": "number"
                     },
                     "maxConnectedPeers": {
-                        "type": ""
+                        "type": "number"
                     },
                     "metadataPercentComplete": {
-                        "type": ""
+                        "type": "number"
                     },
                     "name": {
-                        "type": ""
+                        "type": "string"
                     },
                     "peer-limit": {
-                        "type": ""
+                        "type": "number"
                     },
                     "peers": {
-                        "type": ""
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/Peer"
+                        }
                     },
                     "peersConnected": {
                         "type": ""
