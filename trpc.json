@@ -297,8 +297,10 @@
                         }
                     },
                     "trackerStats": {
-                        "type": ""
-                    },
+                        "type": "array",
+                        "items": {
+                            "$ref": "#/components/schemas/TrackerStat"
+                        }
                     "totalSize": {
                         "type": ""
                     },
