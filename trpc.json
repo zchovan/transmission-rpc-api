@@ -23,7 +23,7 @@
                 "parameters": [
                     {
                         "name": "method",
-                        "in": "path",
+                        "in": "query",
                         "required": true,
                         "schema": {
                             "type": "string"
@@ -31,7 +31,7 @@
                     },
                     {
                         "name": "arguments",
-                        "in": "header",
+                        "in": "query",
                         "required": false,
                         "schema": {
                             "type": "object"
@@ -39,7 +39,7 @@
                     },
                     {
                         "name": "tag",
-                        "in": "header",
+                        "in": "query",
                         "required": false,
                         "schema": {
                             "type": "integer"
