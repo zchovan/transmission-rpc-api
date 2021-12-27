@@ -325,7 +325,17 @@
             },
             "FileStats": {
                 "type": "object",
-                "properties": {}
+                "properties": {
+                    "bytesCompleted": {
+                        "type": "number"
+                    },
+                    "wanted": {
+                        "type": "boolean"
+                    },
+                    "priority": {
+                        "type": "number"
+                    }
+                }
             },
             "Error": {
                 "type": "object",
