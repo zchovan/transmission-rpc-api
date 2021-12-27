@@ -327,7 +327,7 @@
                 }
 
             },
-            "FileStat": {
+            "FileStats": {
                 "type": "object",
                 "properties": {
                     "bytesCompleted": {
@@ -433,6 +433,89 @@
                         "type": "string"
                     }, 
                     "tier": {
+                        "type": "number"
+                    }
+                }
+            },
+            "TrackerStats": {
+                "type": "object",
+                "properties": {
+                    "announce":{
+                        "type": "string"
+                    },
+                    "announceState":{
+                        "type": "number"
+                    },
+                    "downloadCount":{
+                        "type": "number"
+                    },
+                    "hasAnnounced":{
+                        "type": "boolean"
+                    },
+                    "hasScraped":{
+                        "type": "boolean"
+                    },
+                    "host":{
+                        "type": "string"
+                    },
+                    "id":{
+                        "type": "number"
+                    },
+                    "isBackup":{
+                        "type": "boolean"
+                    },
+                    "lastAnnouncePeerCount":{
+                        "type": "number"
+                    },
+                    "lastAnnounceResult":{
+                        "type": "string"
+                    },
+                    "lastAnnounceStartTime":{
+                        "type": "number"
+                    },
+                    "lastAnnounceSucceeded":{
+                        "type": "boolean"
+                    },
+                    "lastAnnounceTime":{
+                        "type": "number"
+                    },
+                    "lastAnnounceTimedOut":{
+                        "type": "boolean"
+                    },
+                    "lastScrapeResult":{
+                        "type": "string"
+                    },
+                    "lastScrapeStartTime":{
+                        "type": "number"
+                    },
+                    "lastScrapeSucceeded":{
+                        "type": "boolean"
+                    },
+                    "lastScrapeTime":{
+                        "type": "number"
+                    },
+                    "lastScrapeTimedOut":{
+                        "type": "boolean"
+                    },
+                    "leecherCount":{
+                        "type": "number"
+                    },
+                    "nextAnnounceTime":{
+                        "type": "number"
+                    },
+                    "nextScrapeTime":{
+                        "type": "number"
+                    },
+                    "scrape":{
+                        "type": "string"
+                    },
+                    "scrapeState":{
+                        "type": "number"
+                    },
+                    "seederCount":{
+                        "type": "number"
+                    },
+                    "tier":{
                         "type": "number"
                     }
                 }
