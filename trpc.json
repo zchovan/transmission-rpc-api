@@ -342,7 +342,57 @@
                 }
             },
             "Peer": {
-
+                "type": "object",
+                "properties": {
+                    "address": {
+                        "type": "string"
+                    },
+                    "clientName": {
+                        "type": "string"
+                    },
+                    "clientIsChoked" : {
+                        "type": "boolean"
+                    },
+                    "clientIsInterested": {
+                        "type": "boolean"
+                    },
+                    "flagStr": {
+                        "type": "string"
+                    },
+                    "isDownloadingFrom": {
+                        "type": "boolean"
+                    },
+                    "isEncrypted": {
+                        "type": "boolean"
+                    },
+                    "isIncoming": {
+                        "type": "boolean"
+                    },
+                    "isUploadingTo": {
+                        "type": "boolean"
+                    },
+                    "isUTP": {
+                        "type": "boolean"
+                    },
+                    "peerIsChoked": {
+                        "type": "boolean"
+                    },
+                    "peerIsInterested": {
+                        "type": "boolean"
+                    },
+                    "port": {
+                        "type": "number"
+                    },
+                    "progress": {
+                        "type": "number"
+                    },
+                    "rateToClient": {
+                        "type": "number"
+                    },
+                    "rateToPeer": {
+                        "type": "number"
+                    }
+                }   
             },
             "Error": {
                 "type": "object",
