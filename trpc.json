@@ -299,7 +299,7 @@
                     "trackerStats": {
                         "type": "array",
                         "items": {
-                            "$ref": "#/components/schemas/TrackerStat"
+                            "$ref": "#/components/schemas/TrackerStats"
                         }
                     "totalSize": {
                         "type": ""
