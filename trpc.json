@@ -23,13 +23,7 @@
         "parameters": [
           {
             "method": "torrent-get",
-            "ids": "query",
-            "description": "ID of the user",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
+            ""fields": [ "id", "name", "totalSize" ],
           }
         ],
         "responses": {
