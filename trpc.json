@@ -419,7 +419,24 @@
                         "type": "number"   
                     }
                 }   
-            }
+            },
+            "Tracker": {
+                "type": "object",
+                "properties": {
+                    "announce": {
+                        "type":"string"
+                    },
+                    "id": {
+                        "type": "number"
+                    },
+                    "scrape": {
+                        "type": "string"
+                    }, 
+                    "tier": {
+                        "type": "number"
+                    }
+                }
+            },
             "Error": {
                 "type": "object",
                 "required": [
