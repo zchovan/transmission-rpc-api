@@ -31,7 +31,7 @@
                     },
                     {
                         "name": "arguments",
-                        "in": "body",
+                        "in": "header",
                         "required": false,
                         "schema": {
                             "type": "object"
@@ -39,7 +39,7 @@
                     },
                     {
                         "name": "tag",
-                        "in": "body",
+                        "in": "header",
                         "required": false,
                         "schema": {
                             "type": "integer"
