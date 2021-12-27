@@ -23,9 +23,21 @@
                 "parameters": [
                     {
                         "name": "method",
-                        "in": "query",
+                        "in": "body",
                         "required": true,
                         "type": "string"
+                    },
+                    {
+                        "name": "arguments",
+                        "in": "body",
+                        "required": false,
+                        "type":"object"
+                    },
+                    {
+                        "name": "tag",
+                        "in": "body",
+                        "required": false,
+                        "type": "integer"
                     }
                 ],
                 "responses": {
