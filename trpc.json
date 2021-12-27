@@ -158,31 +158,34 @@
                         }
                     },
                     "hashString": {
-                        "type": ""
+                        "type": "string"
                     },
                     "haveUnchecked": {
-                        "type": ""
+                        "type": "number"
                     },
                     "haveValid": {
-                        "type": ""
+                        "type": "number"
                     },
                     "honorsSessionLimits": {
-                        "type": ""
+                        "type": "boolean"
                     },
                     "id": {
-                        "type": ""
+                        "type": "number"
                     },
                     "isFinished": {
-                        "type": ""
+                        "type": "boolean"
                     },
                     "isPrivate": {
-                        "type": ""
+                        "type": "boolean"
                     },
                     "isStalled": {
-                        "type": ""
+                        "type": "boolean"
                     },
                     "labels": {
-                        "type": ""
+                        "type": "array",
+                        "items": {
+                            "type": "string" 
+                        }
                     },
                     "leftUntilDone": {
                         "type": ""
