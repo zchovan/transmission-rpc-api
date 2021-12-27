@@ -23,7 +23,7 @@
                 "parameters": [
                     {
                         "name": "method",
-                        "in": "header",
+                        "in": "body",
                         "required": true,
                         "schema": {
                             "type": "string"
