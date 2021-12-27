@@ -327,7 +327,10 @@
                         }
                     },
                     "webseeds": {
-                        "type": ""
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
                     },
                     "webseedsSendingToUs": {
                         "type": "number"
