@@ -23,7 +23,7 @@
         "parameters": [
           {
             "method": "torrent-get",
-            "in": "query",
+            "ids": "query",
             "description": "ID of the user",
             "required": true,
             "schema": {
