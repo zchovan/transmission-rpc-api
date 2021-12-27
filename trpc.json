@@ -153,7 +153,9 @@
                     },
                     "fileStats": {
                         "type": "array",
-                        "$ref": "#/components/schemas/FileStats"
+                        "items": {
+                            "$ref": "#/components/schemas/FileStats"
+                        }
                     },
                     "hashString": {
                         "type": ""
