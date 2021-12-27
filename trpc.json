@@ -9,20 +9,20 @@
   },
   "servers": [
     {
-      "url": "localhost:3000"
+      "url": "192.168.130.3:3000"
     }
   ],
   "paths": {
-    "/user": {
+    "/transmission/rpc": {
       "get": {
-        "summary": "Details about a user",
-        "operationId": "listUser",
+        "summary": "The one and only path",
+        "operationId": "torrent-get",
         "tags": [
           "user"
         ],
         "parameters": [
           {
-            "name": "id",
+            "method": "torrent-get",
             "in": "query",
             "description": "ID of the user",
             "required": true,
