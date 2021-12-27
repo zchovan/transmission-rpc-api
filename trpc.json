@@ -184,7 +184,7 @@
                     "labels": {
                         "type": "array",
                         "items": {
-                            "type": "string" 
+                            "$ref": "Label" 
                         }
                     },
                     "leftUntilDone": {
