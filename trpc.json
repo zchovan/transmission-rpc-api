@@ -23,7 +23,7 @@
                 "parameters": [
                     {
                         "name": "method",
-                        "in": "body",
+                        "in": "path",
                         "required": true,
                         "schema": {
                             "type": "string"
