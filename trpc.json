@@ -302,16 +302,16 @@
                             "$ref": "#/components/schemas/TrackerStats"
                         }
                     "totalSize": {
-                        "type": ""
+                        "type": "number"
                     },
                     "torrentFile": {
-                        "type": ""
+                        "type": "string"
                     },
                     "uploadedEver": {
-                        "type": ""
+                        "type": "number"
                     },
                     "uploadLimit": {
-                        "type": ""
+                        "type": "number"
                     },
                     "uploadLimited": {
                         "type": ""
