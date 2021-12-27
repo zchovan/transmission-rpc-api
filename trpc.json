@@ -48,7 +48,7 @@
                 ],
                 "responses": {
                     "200": {
-                        "description": "Details about a user",
+                        "description": "Details about a torrent",
                         "headers": {
                             "x-next": {
                                 "description": "A link to the next page of responses",
@@ -81,24 +81,234 @@
     },
     "components": {
         "schemas": {
-            "User": {
+            "Torrent": {
                 "type": "object",
                 "required": [
                     "id",
                     "name"
                 ],
                 "properties": {
+                    "activityDate": {
+                        "type": "number"
+                    },
+                    "addedDate": {
+                        "type": "number"
+                    },
+                    "bandwidthPriority": {
+                        "type": "number"
+                    },
+                    "comment": {
+                        "type": "string"
+                    },
+                    "corruptEver": {
+                        "type": "number"
+                    },
+                    "creator": {
+                        "type": "string"
+                    },
+                    "dateCreated": {
+                        "type": "number"
+                    },
+                    "desiredAvailable": {
+                        "type": "number"
+                    },
+                    "doneDate": {
+                        "type": "number"
+                    },
+                    "downloadDir": {
+                        "type": "string"
+                    },
+                    "downloadedEver": {
+                        "type": "number"
+                    },
+                    "downloadLimit": {
+                        "type": "number"
+                    },
+                    "downloadLimited": {
+                        "type": "boolean"
+                    },
+                    "editDate": {
+                        "type": "number"
+                    },
+                    "error": {
+                        "type": "number"
+                    },
+                    "errorString": {
+                        "type": "string"
+                    },
+                    "eta": {
+                        "type": "number"
+                    },
+                    "etaIdle": {
+                        "type": "number"
+                    },
+                    "file-count": {
+                        "type": "number"
+                    },
+                    "files": {
+                        "type": "array",
+                        "$ref":"#/components/schemas/File"
+                    },
+                    "fileStats": {
+                        "type": ""
+                    },
+                    "hashString": {
+                        "type": ""
+                    },
+                    "haveUnchecked": {
+                        "type": ""
+                    },
+                    "haveValid": {
+                        "type": ""
+                    },
+                    "honorsSessionLimits": {
+                        "type": ""
+                    },
                     "id": {
-                        "type": "integer",
-                        "format": "int64"
+                        "type": ""
+                    },
+                    "isFinished": {
+                        "type": ""
+                    },
+                    "isPrivate": {
+                        "type": ""
+                    },
+                    "isStalled": {
+                        "type": ""
+                    },
+                    "labels": {
+                        "type": ""
+                    },
+                    "leftUntilDone": {
+                        "type": ""
+                    },
+                    "magnetLink": {
+                        "type": ""
+                    },
+                    "manualAnnounceTime": {
+                        "type": ""
+                    },
+                    "maxConnectedPeers": {
+                        "type": ""
+                    },
+                    "metadataPercentComplete": {
+                        "type": ""
                     },
                     "name": {
-                        "type": "string"
+                        "type": ""
                     },
-                    "tag": {
-                        "type": "string"
+                    "peer-limit": {
+                        "type": ""
+                    },
+                    "peers": {
+                        "type": ""
+                    },
+                    "peersConnected": {
+                        "type": ""
+                    },
+                    "peersFrom": {
+                        "type": ""
+                    },
+                    "peersGettingFromUs": {
+                        "type": ""
+                    },
+                    "peersSendingToUs": {
+                        "type": ""
+                    },
+                    "percentDone": {
+                        "type": ""
+                    },
+                    "pieces": {
+                        "type": ""
+                    },
+                    "pieceCount": {
+                        "type": ""
+                    },
+                    "pieceSize": {
+                        "type": ""
+                    },
+                    "priorities": {
+                        "type": ""
+                    },
+                    "primary-mime-type": {
+                        "type": ""
+                    },
+                    "queuePosition": {
+                        "type": ""
+                    },
+                    "rateDownload(B/s)": {
+                        "type": ""
+                    },
+                    "rateUpload(B/s)": {
+                        "type": ""
+                    },
+                    "recheckProgress": {
+                        "type": ""
+                    },
+                    "secondsDownloading": {
+                        "type": ""
+                    },
+                    "secondsSeeding": {
+                        "type": ""
+                    },
+                    "seedIdleLimit": {
+                        "type": ""
+                    },
+                    "seedIdleMode": {
+                        "type": ""
+                    },
+                    "seedRatioLimit": {
+                        "type": ""
+                    },
+                    "seedRatioMode": {
+                        "type": ""
+                    },
+                    "sizeWhenDone": {
+                        "type": ""
+                    },
+                    "startDate": {
+                        "type": ""
+                    },
+                    "status": {
+                        "type": ""
+                    },
+                    "trackers": {
+                        "type": ""
+                    },
+                    "trackerStats": {
+                        "type": ""
+                    },
+                    "totalSize": {
+                        "type": ""
+                    },
+                    "torrentFile": {
+                        "type": ""
+                    },
+                    "uploadedEver": {
+                        "type": ""
+                    },
+                    "uploadLimit": {
+                        "type": ""
+                    },
+                    "uploadLimited": {
+                        "type": ""
+                    },
+                    "uploadRatio": {
+                        "type": ""
+                    },
+                    "wanted": {
+                        "type": ""
+                    },
+                    "webseeds": {
+                        "type": ""
+                    },
+                    "webseedsSendingToUs": {
+                        "type": ""
                     }
                 }
+            },
+            "File": {
+
             },
             "Error": {
                 "type": "object",
