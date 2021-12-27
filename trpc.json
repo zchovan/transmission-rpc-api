@@ -308,6 +308,12 @@
                 }
             },
             "File": {
+                "type": "object",
+                "properties": {
+                    "bytesCompleted": "number",
+                    "length": "numbe",
+                    "name": "string"
+                }
 
             },
             "Error": {
